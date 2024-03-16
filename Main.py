@@ -8,6 +8,9 @@ import _thread
 import time
 from pyCoinPayments import CryptoPayments
 import uuid
+import os
+
+port = int(os.environ.get("PORT", 5000))
 
 
 TOKEN = "7135284003:AAEQqP_TGB8auDEKocPNvDYGtyLE10Swaw4"
